@@ -225,9 +225,9 @@ export class AppSettingsDialog extends React.Component<{}, AppSettingsDialogStat
                         </div>) )}
                     </div>
                     <div className="dialog-buttons">
-                        <button className="appsettings-savebtn" onClick={() => this.onAccept()}>Save</button>
+                        <button type="button" className="appsettings-savebtn" onClick={() => this.onAccept()}>Save</button>
                         &nbsp;&nbsp;&nbsp;
-                        <button className="appsettings-cancelbtn" onClick={() => this.onClose()}>Cancel</button>
+                        <button type="button" className="appsettings-cancelbtn" onClick={() => this.onClose()}>Cancel</button>
                     </div>
                 </div>
             </div>
